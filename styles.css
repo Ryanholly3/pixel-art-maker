@@ -1,0 +1,150 @@
+body {
+  background-color: #3F403F;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  display: inline-block;
+  text-align: center;
+  margin: 0 4px 4px 0;
+  font-family: 'Lobster', cursive;
+}
+
+.border {
+  background-color: #BDBFBD;
+  display: flex;
+  height: 500px;
+  width: 500px;
+  border-radius: 30px;
+  border: black solid 3px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.canvas {
+  background-color: white;
+  border: 3px black solid;
+  height: 400px;
+  width: 450px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pixel {
+  background-color: white;
+  height: 18px;
+  width: 19.5px;
+  border: solid #3F403F 1px;
+  flex-grow: 1;
+}
+
+.bottom {
+  height: 52px;
+  width: 456px;
+  display: flex;
+  justify-content: row;
+  align-items: flex-end;
+}
+
+.palette {
+  height: 50px;
+  width: 315px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.current {
+  height: 50px;
+  width: 141px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+}
+.brush {
+  background-color: red;
+  border: black solid 2px;
+  height: 41px;
+  width: 41px;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.black {
+  background-color: black;
+}
+
+/************************** PALETTE COLORS ************************/
+
+.paletteRed {
+  background-color: red;
+  height: 45px;
+  width: 45px;
+}
+
+.paletteOrange {
+  background-color: orange;
+  height: 45px;
+  width: 45px;
+}
+
+.paletteYellow {
+  background-color: yellow;
+  height: 45px;
+  width: 45px;
+}
+
+.paletteGreen {
+  background-color: green;
+  height: 45px;
+  width: 45px;
+}
+
+.paletteBlue {
+  background-color: blue;
+  height: 45px;
+  width: 45px;
+}
+
+.palettePurple {
+  background-color: purple;
+  height: 45px;
+  width: 45px;
+}
+
+.paletteBlack {
+  background-color: black;
+  height: 45px;
+  width: 45px;
+}
